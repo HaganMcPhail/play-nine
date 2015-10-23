@@ -3,8 +3,9 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.7;
-  margin: 0;
-  padding: 30px;
+  padding: 0;
+  margin: 25px 25px;
+  height:100vh;
 }
 
 a {
@@ -60,3 +61,30 @@ p, ul {
 ul {
   padding-left: 30px;
 }
+div#content{
+  /*min-height:100vh;
+  max-height: 100vh;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height:100vh;
+}
+
+div.left-side{
+  height:98vh;
+  min-height: 250px;
+  overflow: scroll;
+}
+div.right-side{
+  height: 600px;
+  overflow: scroll;
+  background-color: #b6b6b6;
+}
+
+
+
+
+
+
+
+
+
